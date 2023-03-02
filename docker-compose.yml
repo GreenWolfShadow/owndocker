@@ -1,0 +1,6 @@
+version: "3"
+services: 
+  httpserver:
+    image: registry.gitlab.com/docker8245307/owncontainer:latest
+    ports: 
+      - "80:80"
