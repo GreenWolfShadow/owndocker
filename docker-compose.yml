@@ -1,6 +1,6 @@
 version: "3"
 services: 
   httpserver:
-    image: registry.gitlab.com/docker8245307/owncontainer:latest
+    image: registry.gitlab.com/muellerlionel/simi-docker:v2
     ports: 
       - "80:80"
